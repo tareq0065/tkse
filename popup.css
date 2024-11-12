@@ -1,0 +1,66 @@
+/* Overall popup container styling */
+.popup {
+    width: 300px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Search container to align input and button */
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Search icon styling */
+.search-icon {
+    font-size: 18px;
+    color: #888;
+}
+
+/* Search input styling */
+#searchInput {
+    flex: 1;
+    padding: 8px 10px 8px 25px; /* Extra left padding for icon space */
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* Search button styling */
+#searchButton {
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #f1f3f4;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#searchButton:hover {
+    background-color: #e0e0e0;
+}
+
+/* Results container styling */
+#results {
+    margin-top: 15px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+/* Result item styling */
+.result-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.result-item:hover {
+    background-color: #f0f0f0;
+}
